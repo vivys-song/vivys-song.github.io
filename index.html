@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Shop Website</title>
+   <style>
+        body {
+            background-image: url('https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header align="center"><h1>Welcome To WriteWell Stationery Shop Website</h1></header>
+    <h2 align="center">Please register yourself first.</h2>
+    <form action="process.html" method="get">
+        <table align="center">
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" placeholder="abcd" minlength="4" maxlength="20" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" minlength="6" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" placeholder="xyz@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile No.:</label></td>
+                <td><input type="tel" id="mobile" placeholder="91-XXXX-XXXXXX" pattern="91-[0-9]{4}-[0-9]{6}"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td>
+                    <select>
+                        <option>13-17</option>
+                        <option>18-24</option>
+                        <option>25-30</option>
+                        <option>31-40</option>
+                        <option>41 And Over</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td>
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Custom</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="subscribe">Receive updates?</label></td>
+                <td><input type="checkbox" id="subscribe"></td>
+            </tr>
+        </table>
+        <div style="position:relative; left:45%">
+            <input type="reset">
+            <input type="submit" name="FormSubmit">
+        </div>
+        
+    </form>
+</body>
+</html>

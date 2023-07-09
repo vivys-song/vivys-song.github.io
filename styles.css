@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    background-image: url("https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+header h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+/* Featured Products section styles */
+#featured-products {
+    padding: 20px;
+  }
+  
+#featured-products h2 {
+    margin-top: 0;
+  }
+  
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+footer p {
+    margin: 0;
+  }
